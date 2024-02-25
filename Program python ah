@@ -1,0 +1,103 @@
+PWD='123'
+BALANCE=40
+password=input("Enter your PIN:")
+while password!=PWD:
+    print("Invalid password, try again!")
+    password = input("Enter a correct PIN:")
+labax=float(input("Isa ayaad la baxaysaa?"))
+if labax>BALANCE:
+    print("Haraagu kuguma filna")
+else:
+    haraa=BALANCE-labax
+    print("Haraagaagu waa:",haraa)
+    print("M A H A D S A N I D")
+
+
+
+
+
+
+
+
+
+
+
+Onothe code or cashar kale
+
+
+
+
+def greeting():
+    print("STUDENT INFORMATION")
+    print("=====================")
+    print("Hello, good morning")
+    print("Welcome to JUST")
+def info():
+    name = input("Enter your name:")
+    grade = input("Enter your grade:")
+def finanace():
+    balance = float(input("Enter your balance"))
+def goodbye():
+    print("Thank you!")
+def main():
+    greeting()
+    info()
+    finanace()
+    goodbye()
+
+
+
+
+
+
+
+
+
+
+
+value-ret function 1
+===
+def calSubjects():
+    python=float(input("Enter python marks:"))
+    html = float(input("Enter html marks:"))
+    english = float(input("Enter english marks:"))
+    average=(python+html+english)/3
+    return average
+def calAssignment():
+    subjectTotal=calSubjects()
+    ass=float(input("Enter assignment marks:"))
+    total=subjectTotal+ass
+    print(f"You got {total:.2f}")
+def main():
+    calAssignment()
+main()
+
+
+
+
+
+
+
+
+vale-ret function with pause, and pass keyword
+===
+def calSubjects():
+    python=float(input("Enter python marks:"))
+    html = float(input("Enter html marks:"))
+    english = float(input("Enter english marks:"))
+    average=(python+html+english)/3
+    return average
+def calAssignment():
+    subjectTotal=calSubjects()
+    #puase the screen untill the user presses ENTER
+    input("The program will call the function, presse Enter when ready:")
+    ass=float(input("Enter assignment marks:"))
+    total=subjectTotal+ass
+    print(f"You got {total:.2f}")
+def veryMarks():
+    pass
+
+def main():
+    calAssignment()
+    veryMarks()
+main()
